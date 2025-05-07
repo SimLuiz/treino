@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plano de Treino ABCD</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+    .buttons button {
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      border: none;
+      background: #4caf50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    section {
+      display: none;
+      padding: 1rem;
+    }
+    .exercise {
+      margin-bottom: 1.2rem;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .exercise h3 {
+      margin-top: 0;
+      color: #4caf50;
+    }
+    .exercise a {
+      color: #1e88e5;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Plano de Treino ABCD</h1>
+  </header>
+  <div class="buttons">
+    <button onclick="showSection('a')">Peito e Tríceps</button>
+    <button onclick="showSection('b')">Costas e Bíceps</button>
+    <button onclick="showSection('c')">Ombro e Antebraço</button>
+    <button onclick="showSection('d')">Pernas Completo</button>
+  </div>
+
+  <section id="a">
+    <div class="exercise">
+      <h3>Supino Reto com Barra</h3>
+      <p>Deite-se no banco, pés firmes no chão. Segure a barra com pegada aberta, desça até o peitoral e empurre para cima.</p>
+      <a href="https://www.youtube.com/watch?v=fG_03xSzT2s" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Supino Inclinado com Halteres</h3>
+      <p>Semelhante ao reto, porém com inclinação. Trabalha mais o peitoral superior.</p>
+      <a href="https://www.youtube.com/watch?v=8iPEnn-ltC8" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Crucifixo Inclinado com Halteres</h3>
+      <p>Deitado no banco inclinado, abra os braços em arco e feche contraindo o peitoral.</p>
+      <a href="https://www.youtube.com/watch?v=eozdVDA78K0" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Paralelas</h3>
+      <p>Suspenso nas barras, desça o corpo e suba com a força do peitoral e tríceps.</p>
+      <a href="https://www.youtube.com/watch?v=2z8JmcrW-As" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Tríceps Pulley</h3>
+      <p>Com a corda na polia alta, empurre para baixo mantendo os cotovelos fixos.</p>
+      <a href="https://www.youtube.com/watch?v=vB5OHsJ3EME" target="_blank">Ver vídeo</a>
+    </div>
+  </section>
+
+  <section id="b">
+    <div class="exercise">
+      <h3>Puxada Frente</h3>
+      <p>Sentado, puxe a barra da polia alta até o peito com os cotovelos descendo em linha com o tronco.</p>
+      <a href="https://www.youtube.com/watch?v=CAwf7n6Luuc" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Remada Curvada</h3>
+      <p>Inclinado à frente, puxe a barra ou halteres em direção ao abdômen, mantendo costas firmes.</p>
+      <a href="https://www.youtube.com/watch?v=vT2GjY_Umpw" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Pulldown com Pegada Supinada</h3>
+      <p>Semelhante à puxada frente, mas com as palmas voltadas para você, foca mais bíceps.</p>
+      <a href="https://www.youtube.com/watch?v=CKj1K6Yk5IQ" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Rosca Direta com Barra</h3>
+      <p>Com barra na frente das coxas, flexione os cotovelos levantando a barra até a altura dos ombros.</p>
+      <a href="https://www.youtube.com/watch?v=kwG2ipFRgfo" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Rosca Martelo</h3>
+      <p>Com halteres, levante mantendo a pegada neutra, trabalhando o braquiorradial.</p>
+      <a href="https://www.youtube.com/watch?v=zC3nLlEvin4" target="_blank">Ver vídeo</a>
+    </div>
+  </section>
+
+  <section id="c">
+    <div class="exercise">
+      <h3>Desenvolvimento com Barra</h3>
+      <p>Sentado, leve a barra do nível dos ombros até acima da cabeça. Retorne com controle.</p>
+      <a href="https://www.youtube.com/watch?v=qbx391vUCt0" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Elevação Lateral</h3>
+      <p>Com halteres, levante os braços lateralmente até a altura dos ombros. Foco no deltoide lateral.</p>
+      <a href="https://www.youtube.com/watch?v=kDqklk1ZESo" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Elevação Frontal</h3>
+      <p>Com halteres ou barra, levante os braços à frente até a altura dos ombros.</p>
+      <a href="https://www.youtube.com/watch?v=-t7fuZ0KhDA" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Encolhimento com Halteres</h3>
+      <p>Segure halteres ao lado do corpo e eleve os ombros, contraindo o trapézio.</p>
+      <a href="https://www.youtube.com/watch?v=6TSP1TRMUzs" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Rosca Inversa</h3>
+      <p>Com barra leve, faça rosca com pegada pronada (palmas para baixo). Trabalha antebraço.</p>
+      <a href="https://www.youtube.com/watch?v=0AUGkch3tzc" target="_blank">Ver vídeo</a>
+    </div>
+  </section>
+
+  <section id="d">
+    <div class="exercise">
+      <h3>Agachamento Livre</h3>
+      <p>Com a barra nos ombros, agache mantendo o tronco ereto até as coxas ficarem paralelas ao chão.</p>
+      <a href="https://www.youtube.com/watch?v=3Y2U3Agkvbs" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Leg Press</h3>
+      <p>Empurre a plataforma com os pés, mantendo a lombar fixa no banco e joelhos alinhados.</p>
+      <a href="https://www.youtube.com/watch?v=IZxyjW7MPJQ" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Cadeira Extensora</h3>
+      <p>Sentado, estenda as pernas contra a resistência, contraindo os quadríceps.</p>
+      <a href="https://www.youtube.com/watch?v=YyvSfVjQeL0" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Mesa Flexora</h3>
+      <p>Deitado, flexione os joelhos puxando a almofada para cima, contraindo os posteriores.</p>
+      <a href="https://www.youtube.com/watch?v=1Tq3QdYUuHs" target="_blank">Ver vídeo</a>
+    </div>
+    <div class="exercise">
+      <h3>Panturrilha em Pé</h3>
+      <p>Com peso nos ombros ou no aparelho, eleve os calcanhares o máximo possível.</p>
+      <a href="https://www.youtube.com/watch?v=-M4-G8p8fmc" target="_blank">Ver vídeo</a>
+    </div>
+  </section>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(sec => sec.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</body>
+</html>
